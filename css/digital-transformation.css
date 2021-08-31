@@ -1,0 +1,457 @@
+* {
+  font-family: "Montserrat";
+  color: black;
+}
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: inline !important;
+}
+body {
+  overflow: overlay;
+}
+body::-webkit-scrollbar {
+  width: 14px;
+  height: 18px;
+  background-color: transparent;
+}
+body::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+body::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 50px;
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  -webkit-border-radius: 7px;
+  background-color: rgba(128, 128, 128, 0.5);
+  -webkit-box-shadow: inset -1px -1px 0 rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+.services:focus,
+.services:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid #704d9f;
+}
+.container-fluid {
+  padding-right: 6px;
+  padding-left: 43px;
+}
+.images {
+  background-image: url(../images/map.png);
+  background-position: center center;
+  background-attachment: fixed;
+}
+.navbar {
+  margin-bottom: 0px !important;
+}
+.navbar-collapse {
+  border-top: 0px !important;
+  box-shadow: inset 0 0px 0 rgb(0 0 0 / 0%) !important;
+  -webkit-box-shadow: inset 0 0px 0 rgb(0 0 0 / 0%) !important;
+  padding-left: 0px !important;
+}
+.players img {
+  height: 268px;
+  width: 339px;
+}
+.buisness {
+  top: 20%;
+  left: 0%;
+  right: 0%;
+}
+.inside {
+  background: url("../images/black2.png");
+}
+.inside2 {
+  background: url("../images/black2.png");
+  margin: auto;
+}
+.boots2 {
+  width: 339px;
+}
+.unordered li {
+  margin-right: 28px;
+  margin-top: 12px;
+}
+.blur {
+  height: 161px;
+}
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.all-the-items {
+  display: none;
+}
+.sports {
+  display: none;
+}
+.input-field {
+  background: none;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  /* margin-left: 30px; */
+  outline: none;
+  border-bottom: 2px solid white;
+  margin-left: -36px;
+  font-size: 12px;
+  padding-bottom: 6px;
+}
+.input-field ::placeholder {
+  color: aliceblue;
+}
+.for-i {
+  /* margin-left: -69px; */
+  position: absolute;
+  top: 46%;
+  padding-left: 30px;
+  border-bottom: 2px solid white;
+  padding-bottom: 7px;
+}
+p {
+  margin: 0px;
+}
+/* a:focus,
+a:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid #704d9f;
+} */
+
+@media only screen and (min-width: 339px) {
+  .inside2 {
+    width: 285px;
+  }
+}
+@media only screen and (min-width: 357px) {
+  .inside2 {
+    width: 301px;
+  }
+}
+@media only screen and (min-width: 381px) {
+  .inside2 {
+    width: 339px;
+  }
+}
+@media only screen and (min-width: 381px) {
+  .for-padding {
+    padding: 0px 10px;
+  }
+}
+@media only screen and (min-width: 672px) {
+  .for-padding {
+    padding: 0px 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .nav > li > a {
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 779px) {
+  .for-padding {
+    padding: 0px 93px;
+  }
+}
+@media only screen and (min-width: 904px) {
+  .for-padding {
+    padding: 0px 156px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .spaces {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 1081px) {
+  .unordered li {
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 14px;
+  }
+  .spaces {
+    justify-content: space-between;
+  }
+  @media only screen and (min-width: 779px) {
+    .for-padding {
+      padding: 0px 170px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1081px) {
+  .images {
+    background-position: -51px -14px;
+    height: 391px;
+    background-attachment: inherit;
+  }
+  .navbar-nav {
+    margin-left: 3px;
+  }
+  .nonning {
+    display: none;
+  }
+  .moving {
+    display: none;
+  }
+  .players {
+    margin: 0;
+  }
+  .play {
+    border-radius: 0px;
+  }
+  .all-the-items {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+  }
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .data-services {
+    padding: 91px 250px;
+  }
+  .data-services p {
+    line-height: 27px;
+  }
+  .lucy {
+    text-align: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  .players {
+    margin-bottom: -25px;
+  }
+  .flexing {
+    display: flex;
+  }
+  .flexi {
+    flex: 1;
+  }
+  .flexing:nth-of-type(2) {
+    flex-direction: row-reverse;
+  }
+  .flexing:nth-of-type(4) {
+    flex-direction: row-reverse;
+  }
+
+  .players > .flexing {
+    flex: 56%;
+  }
+  .inside2 {
+    border-radius: 0px;
+    height: 458px;
+    width: 548px;
+  }
+  .for-padding {
+    padding: 0px 170px;
+  }
+  .players img {
+    height: 458px;
+    width: 1549px;
+  }
+  .play {
+    height: 398px;
+    width: 549px;
+  }
+  .blur {
+    height: 344px;
+  }
+  .overall {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .insights {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #343434;
+  }
+  .newyork h2,
+  p {
+    margin-bottom: 8px;
+    text-align: right;
+  }
+  .buisness {
+    top: 38%;
+  }
+  .aligning {
+    text-align: left;
+    margin-top: 75px;
+  }
+  .insights h3 {
+    text-align: left;
+  }
+  .input-field {
+    margin-left: 0px;
+    margin-top: 38px;
+  }
+  .sports {
+    display: block;
+  }
+  .sports ul {
+    display: flex;
+    gap: 43px;
+    padding-top: 40px;
+  }
+  .for-i {
+    top: 62px;
+  }
+  .icons {
+    margin-right: 0px;
+    margin-left: 48px;
+  }
+  .numerical {
+    text-align: left;
+  }
+  .pitch {
+    padding: 60px 50px;
+  }
+  .pitch3 {
+    background: #cacbcc;
+  }
+}
+
+@media (max-width: 1083px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 1168px) {
+  .all-the-items {
+    width: 100%;
+    margin: auto;
+  }
+  .unordered li {
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+  .data-services {
+    padding: 116px 290px;
+  }
+}
+@media only screen and (min-width: 1287px) {
+  .all-the-items {
+    width: 100%;
+    margin: auto;
+  }
+  .unordered li {
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+}
+@media only screen and (min-width: 1356px) {
+  .all-the-items {
+    width: 100%;
+    margin: auto;
+  }
+  .unordered li {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .data-services {
+    padding: 116px 410px;
+  }
+  .players {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flexing {
+    display: flex;
+  }
+  .players > .flexing {
+    flex: 56%;
+  }
+}
+@media only screen and (min-width: 1468px) {
+  .all-the-items {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1592px) {
+  .all-the-items {
+    width: 100%;
+    margin: auto;
+  }
+  .unordered li {
+    margin-left: 56px;
+    margin-right: 56px;
+  }
+}
+@media only screen and (min-width: 1752px) {
+  .all-the-items {
+    width: 100%;
+    margin: auto;
+  }
+  .unordered li {
+    margin-left: 72px;
+    margin-right: 72px;
+  }
+}
