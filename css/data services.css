@@ -129,10 +129,11 @@ h3 {
 .for-i {
   /* margin-left: -69px; */
   position: absolute;
-  top: 46%;
+  /* top: 46%; */
   padding-left: 30px;
   border-bottom: 2px solid white;
   padding-bottom: 7px;
+  top: 36px;
 }
 p {
   margin: 0px;
