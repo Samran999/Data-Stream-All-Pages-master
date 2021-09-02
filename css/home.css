@@ -88,6 +88,10 @@ body::-webkit-scrollbar-thumb {
   width: 200px;
   border-radius: 10px;
 }
+.hovering a{
+  text-decoration: none;
+  color: #fff;
+}
 .hovering:hover {
   background: #48168c !important;
 }
