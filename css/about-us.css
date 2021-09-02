@@ -12,7 +12,7 @@ svg,
 video {
   display: inline !important;
 }
-body{
+body {
   overflow: overlay;
 }
 body::-webkit-scrollbar {
@@ -35,10 +35,11 @@ body::-webkit-scrollbar-thumb {
   background-clip: padding-box;
   -webkit-border-radius: 7px;
   background-color: rgba(128, 128, 128, 0.5);
-  -webkit-box-shadow: inset -1px -1px 0 rgba(0,0,0,.05), inset 1px 1px 0 rgba(0,0,0,.05);
+  -webkit-box-shadow: inset -1px -1px 0 rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0 rgba(0, 0, 0, 0.05);
 }
-a:focus,
-a:hover {
+.services:focus,
+.services:hover {
   color: white;
   text-decoration: none;
   border-bottom: 3px solid #704d9f;
@@ -55,9 +56,6 @@ a:hover {
 .sofas {
   overflow-x: auto;
   margin: 0px 74px;
-}
-.for-logo {
-  border: none !important;
 }
 .sofa {
   width: 200px;
@@ -330,6 +328,7 @@ p {
   }
   .for-sizing {
     padding: 0px 80px;
+    justify-content: center;
   }
   .sizing {
     width: 869px;
