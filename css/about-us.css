@@ -79,6 +79,103 @@ body::-webkit-scrollbar-thumb {
 .layering {
   text-align: center;
 }
+.h-two{
+  text-align: center;
+  padding: 0 0 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}.h-two span{
+  color: #704d9f;
+}
+.blog-details{
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  padding: 0px 70px;
+}
+.blog-details h6{
+  font-size: 20px !important;
+  font-weight: 600;
+  text-align: center;
+}
+.blog-details h4{
+  font-weight: 700;
+  margin-top: 20px !important;
+  line-height: 4rem;
+  font-size: 25px !important;
+}
+.blog-details p{
+  font-weight: 400;
+  margin: 20px 0px !important;
+  line-height: 2rem;
+  text-align: center;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 50px !important;
+}
+.social-icons a{
+  padding: 0px 0px 0px 15px !important;
+  text-decoration: none;
+}
+.facebook{
+  color: #4267B2;
+}
+.twitter{
+  color: #1DA1F2;
+}
+.linkedin{
+  color: #0077b5;
+}
+.google-plus{
+  color: #db4a39;
+}
+.blog-details h2{
+  font-size: 25px !important;
+  font-weight: 700;
+  margin-top: 50px !important;
+}
+.blog-details img{
+  width: 100%;
+  margin-top: 5px !important;
+}
+.client-area{
+  padding: 50px 0 50px;
+}
+.slick-slide{
+  margin: 0 10px;
+}
+.slick-slide img{
+width: 70%;
+}
+.slick-list{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus{
+  outline: none;
+}
+.slick-slide{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slide img{
+  display: block;
+}
+.slick-initialized .slick-slide{
+  display: block;
+}
+.slick-loading .slick-slide{
+  visibility: hidden;
+}
 .fan {
   width: 212px;
   font-size: 10px;
@@ -263,6 +360,7 @@ p {
   .inside2 {
     width: 285px;
   }
+  
 }
 @media only screen and (min-width: 357px) {
   .inside2 {
@@ -290,6 +388,7 @@ p {
 
     border-radius: 9px;
   }
+  
 }
 @media only screen and (min-width: 672px) {
   .for-padding {
@@ -956,5 +1055,17 @@ p {
   .unordered li {
     margin-left: 72px;
     margin-right: 72px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .blog-details{
+    padding: 0px 40px !important;
+  }
+  .blog-details h2{
+    font-size: 20px !important;
+  }
+  .blog-details h4{
+    font-size: 20px !important;
+    line-height: 3rem;
   }
 }

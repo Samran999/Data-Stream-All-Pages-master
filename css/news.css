@@ -52,6 +52,9 @@
     background-position: center center;
     /* background-attachment: fixed; */
   }
+  a{
+    text-decoration: none !important;
+  }
   .navbar {
     margin-bottom: 0px !important;
   }
