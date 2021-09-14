@@ -57,6 +57,15 @@ body::-webkit-scrollbar-thumb {
   overflow-x: auto;
   margin: 0px 74px;
 }
+.slick-dots{
+  top: 150px
+}
+.slick-initialized .slick-slide{
+  display: block;
+}
+.slick-loading .slick-slide{
+  visibility: hidden;
+}
 .sofa {
   width: 200px;
   border-radius: 10px;
