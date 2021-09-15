@@ -57,9 +57,7 @@ body::-webkit-scrollbar-thumb {
   overflow-x: auto;
   margin: 0px 74px;
 }
-.slick-dots{
-  top: 150px
-}
+
 .slick-initialized .slick-slide{
   display: block;
 }
@@ -343,6 +341,7 @@ p {
   .espn {
     margin-left: 0px;
   }
+  
 }
 @media only screen and (min-width: 768px) {
   .nav > li > a {
@@ -526,7 +525,7 @@ p {
   .players > .flexing {
     flex: 56%;
   }
-  inside3 {
+  .inside3 {
     margin-top: 0px;
   }
   .inside2 {
@@ -876,4 +875,38 @@ p {
     margin-left: 72px;
     margin-right: 72px;
   }
+}
+@media screen and (max-width: 670px){
+  .slick-dots{
+    
+  }
+}
+@media screen and (max-width:600px){
+  .slick-dots{
+    
+  }
+}
+@media screen and (max-width: 500px){
+  .slick-dots{
+    
+  }
+}
+@media screen and (max-width: 760px){
+  .slick-dots{
+    
+  }
+}
+@media screen and (max-width: 1080px) and (min-width: 1020px){
+  .unleashing{
+    overflow-x: scroll;
+  }
+  .inside3{
+  height: 240px;
+  }
+}
+@media screen and (max-width: 1076px) {
+  
+}
+.slick-dots{
+  
 }
