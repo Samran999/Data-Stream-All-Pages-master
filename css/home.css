@@ -221,7 +221,7 @@ h3 {
   color: #704d9f;
 }
 .client-area{
-  padding: 50px 0 0;
+  padding: 50px 20px 0px;
 }
 .slick-slide{
   margin: 0 10px;
@@ -229,12 +229,23 @@ h3 {
 .slick-slide img{
 width: 70%;
 }
+.slide img{
+  height: 150px;
+  object-fit: contain;
+  object-position: center;
+  
+}
+
 .slick-list{
   position: relative;
   display: block;
   overflow: hidden;
   margin: 0;
   padding: 0;
+}
+.none-a{
+  text-decoration: none;
+  color: #fff !important;
 }
 .slick-list:focus{
   outline: none;
@@ -485,6 +496,7 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 30px;
     margin: auto;
   }
   .container-fluid {
@@ -876,25 +888,10 @@ p {
     margin-right: 72px;
   }
 }
-@media screen and (max-width: 670px){
-  .slick-dots{
-    
-  }
-}
-@media screen and (max-width:600px){
-  .slick-dots{
-    
-  }
-}
-@media screen and (max-width: 500px){
-  .slick-dots{
-    
-  }
-}
+
+
 @media screen and (max-width: 760px){
-  .slick-dots{
-    
-  }
+  
 }
 @media screen and (max-width: 1080px) and (min-width: 1020px){
   .unleashing{
@@ -904,9 +901,5 @@ p {
   height: 240px;
   }
 }
-@media screen and (max-width: 1076px) {
-  
-}
-.slick-dots{
-  
-}
+
+

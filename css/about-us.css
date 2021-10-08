@@ -151,6 +151,12 @@ body::-webkit-scrollbar-thumb {
 .slick-slide img{
 width: 70%;
 }
+.slide img{
+  height: 150px;
+  object-fit: contain;
+  object-position: center;
+  
+}
 .slick-list{
   position: relative;
   display: block;
@@ -175,6 +181,10 @@ width: 70%;
 }
 .slick-loading .slick-slide{
   visibility: hidden;
+}
+.none-a{
+  text-decoration: none;
+  color: #fff !important;
 }
 .fan {
   width: 212px;
@@ -629,6 +639,7 @@ p {
     justify-content: space-between;
     width: 100%;
     margin: auto;
+    padding-top: 30px;
   }
   .container-fluid {
     padding-right: 15px;

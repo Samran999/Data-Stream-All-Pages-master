@@ -126,6 +126,10 @@ h3 {
 .input-field ::placeholder {
   color: aliceblue;
 }
+.none-a{
+  text-decoration: none;
+  color: #fff !important;
+}
 .for-i {
   /* margin-left: -69px; */
   position: absolute;
@@ -231,6 +235,7 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 30px;
     margin: auto;
   }
   .container-fluid {

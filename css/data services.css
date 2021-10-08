@@ -123,6 +123,10 @@ h3 {
   font-size: 12px;
   padding-bottom: 6px;
 }
+.none-a{
+  text-decoration: none;
+  color: #fff !important;
+}
 .input-field ::placeholder {
   color: aliceblue;
 }
@@ -232,6 +236,7 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 30px;
     margin: auto;
   }
   .container-fluid {
